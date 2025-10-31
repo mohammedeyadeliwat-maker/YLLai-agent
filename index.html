@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My AI Agent</title>
+  <meta name="description" content="Lightweight page hosting my D-ID AI agent" />
+  <link rel="preconnect" href="https://agent.d-id.com" crossorigin />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(180deg,#071025 0%,#081428 60%);
+      color: #e6eef6;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {font-size: 1.8rem;margin-bottom:0.5rem;}
+    p {color:#9aa6b2;max-width:500px;}
+    footer{position:absolute;bottom:10px;width:100%;text-align:center;font-size:0.85rem;color:#6b7280;}
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Welcome to My AI Agent</h1>
+    <p>The D-ID avatar will appear at the bottom-right corner once the page loads.</p>
+  </div>
+
+  <!-- Your D-ID Agent Widget -->
+  <script type="module"
+    src="https://agent.d-id.com/v2/index.js"
+    data-mode="fabio"
+    data-client-key="Z29vZ2xlLW9hdXRoMnwxMTc3MDUxODMyNDYzNzk4Nzc0NTk6ZFRSNFRIUDZZeDhldWtid01Dbzlk"
+    data-agent-id="v2_agt_P-Opka_4"
+    data-name="did-agent"
+    data-monitor="true"
+    data-orientation="horizontal"
+    data-position="right">
+  </script>
+
+  <footer>© 2025 – Powered by D-ID Agent</footer>
+</body>
+</html>
